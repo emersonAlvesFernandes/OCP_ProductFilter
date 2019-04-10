@@ -13,11 +13,12 @@ namespace OCP_Filters
             var tree = new Product("Tree", Color.Green, Size.Large);
             var house = new Product("House", Color.Blue, Size.Large);
             var pepper = new Product("Pepper", Color.Red, Size.Small);
+            var stone = new Product("Pepper", Color.Blue, Size.Medium);
             
             Product[] products = { apple, tree, house };
             
             var fs = new FilterService();
-
+            
             Console.WriteLine("Green products (new):");            
             var specification = new ColorSpecification(Color.Green);
             var filtered = fs.Filter(products, specification);
