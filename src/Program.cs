@@ -13,7 +13,9 @@ namespace OCP_Filters
             var tree = new Product("Tree", Color.Green, Size.Large);
             var house = new Product("House", Color.Blue, Size.Large);
             var pepper = new Product("Pepper", Color.Red, Size.Small);
-            var stone = new Product("Pepper", Color.Blue, Size.Medium);
+            var queens = new Product("Queens", Color.Green, Size.Large);
+            var stone = new Product("Stone", Color.Blue, Size.Medium);
+            
             
             Product[] products = { apple, tree, house };
             
