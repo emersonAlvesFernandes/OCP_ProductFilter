@@ -7,9 +7,9 @@ namespace OCP_Filters.Filters
     {        
         public IEnumerable<Product> Filter(IEnumerable<Product> items, ISpecification<Product> spec)
         {
-            foreach (var i in items)
-                if (spec.IsSatisfied(i))
-                    yield return i;
+            foreach (var item in items)
+                if (spec.IsSatisfied(item))
+                    yield return item;
         }
     }
 }
