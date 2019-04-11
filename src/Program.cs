@@ -13,7 +13,7 @@ namespace OCP_Filters
             var tree = new Product("Tree", Color.Green, Size.Large);
             var house = new Product("House", Color.Blue, Size.Large);            
 
-            //teste 123 456
+            //teste 123 456 789        
                                     
             Product[] products = { apple, tree, house };
             
